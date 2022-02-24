@@ -11,9 +11,9 @@ $('.show-small-img').click(function () {
   $(this).css({'border': 'solid 1px #951b25', 'padding': '2px'}).siblings().css({'border': 'none', 'padding': '0'})
   if ($('#small-img-roll').children().length > 4) {
     if ($(this).index() >= 3 && $(this).index() < $('#small-img-roll').children().length - 1){
-      $('#small-img-roll').css('left', -($(this).index() - 2) * 76 + 'px')
+      $('#small-img-roll').css('left', -($(this).index() - 2) * 0 + 'px')
     } else if ($(this).index() == $('#small-img-roll').children().length - 1) {
-      $('#small-img-roll').css('left', -($('#small-img-roll').children().length - 4) * 76 + 'px')
+      $('#small-img-roll').css('left', -($('#small-img-roll').children().length - 4) * 0 + 'px')
     } else {
       $('#small-img-roll').css('left', '0')
     }

@@ -29,24 +29,20 @@
 .small-img .icon-left:hover, .small-img .icon-right:hover { opacity: .5; }
 
 .small-container {
-  width: 310px;
   height: 70px;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: absolute;
   left: 0;
-  right: 0;
-  margin: 0 auto;
+  right: 25px;
 }
 
 .small-container div {
-  width: 800%;
   position: relative;
 }
 
 .small-container .show-small-img {
   width: 70px;
   height: 70px;
-  margin-right: 6px;
   cursor: pointer;
 }
 
